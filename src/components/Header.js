@@ -10,7 +10,7 @@ export default function Header (){
                 <h1 className="header-name">I'm Nasikh CL</h1>
             </div>
         
-            <img className="main-image" src="./pexels-carolina-herran-13672084.jpg" alt="portfoliophoto" />
+            <img className="main-image" src="/pexels-carolina-herran-13672084.jpg" alt="portfoliophoto" />
            
         
         </div>
