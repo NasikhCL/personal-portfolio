@@ -40,6 +40,11 @@ body {
     
    
   }
+  .navbar-container .hamberger img{
+  display: none;
+  }
+
+
   .navbar-container ul li{
     margin: 0 10px;
     display: inline-block;
@@ -52,7 +57,7 @@ body {
   margin: 0%;
   display: flex;
   flex-wrap: wrap;
-  /* height: 80vh; */
+  /* height: 90vh; */
   width: 100%;
   background-color: #2D2E32;
   /* background-image: url('https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
@@ -64,7 +69,7 @@ body {
 .header-left{
   margin: 0;
   width: fit-content;
-  padding-right:20px;
+  /* padding-right:20px; */
   height:90vh;
   margin-left: 10vw;
   padding-top: 20vh;
@@ -181,4 +186,69 @@ body {
   opacity:.9;
   animation: fadeIn 5s;
   
+}
+
+@media screen and (max-width:760px) {
+  .navbar-container ul{
+    display:none;
+  }
+  .navbar-container .hamberger img{
+    display: inline-block;
+    }
+  .navbar-container .hamberger{
+    float: right;
+    margin-top: 15px;
+    margin-right:20px;
+    /* width: 400px; */
+    /* height: 30px; */
+    /* list-style: none; */
+    
+    
+   
+  }
+  .hamberger-items-contaner{
+    position: absolute;
+    top:0;
+    right: 0;
+    width:50%;
+    height:100vh;
+    padding-top:20px ;
+    background-color: #4dba87;
+    animation: fadeIn .7s;
+    /* transition: all .3s ease-in-out; */
+
+  }
+  .header-name{
+    margin: 0%;
+    font-weight: 400;
+    font-size:  32px;
+    color:#FFFFFF;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    animation: type 4s steps(100,end) forwards;
+  }
+  .header-left{
+    margin: 0 auto;
+    width: fit-content;
+    /* padding-right:10px; */
+    height:90vh;
+    /* margin-left: 10%; */
+    padding-top: 7vh;
+    display: inline-block;
+    /* margin-right: auto; */
+    /* border:1px solid yellow; */
+  
+  }
+
+.main-image{
+  margin: 0;
+  margin-right: 10%;
+  display: none;
+  width: 40%;
+  height: 90vh;
+
+}
+  
+
 }
