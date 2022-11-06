@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, {  useState } from "react";
 
 
 
 export default function Navbar(){
+  
     const [isToggled, setIsToggled] = useState(false)
 
     function toggle(){
