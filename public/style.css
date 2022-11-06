@@ -48,12 +48,17 @@ body {
   /* header container */
 
 .header-container{
+  
   margin: 0%;
   display: flex;
   flex-wrap: wrap;
   /* height: 80vh; */
   width: 100%;
   background-color: #2D2E32;
+  /* background-image: url('https://images.unsplash.com/photo-1584949091598-c31daaaa4aa9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y:center */
   /* background-color: #25262A */
 }
 .header-left{
@@ -79,12 +84,19 @@ body {
   font-weight: 600;
   margin-bottom: 5vh;
 }
+.header-salute{
+    color: #4dba87;
+}
 
 .header-name{
   margin: 0%;
   font-weight: 400;
   font-size:  50px;
   color:#FFFFFF;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  animation: type 4s steps(100,end) forwards;
 }
 
 
@@ -93,12 +105,12 @@ body {
 
 
 
-.header-left h1{
+/* .header-left h1{
   white-space: nowrap;
   overflow: hidden;
   width: 100%;
   animation: type 4s steps(100,end) forwards;
-}
+} */
  
 
 
@@ -129,10 +141,29 @@ body {
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+.download-resume-btn{
+  border: 2px solid #4dba87;
+  background-color: transparent;
+  color:#4dba87;
+  width:200px;
+  height:70px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 25px;
+  font-weight: 600;
+  animation: fadeIn 5s;
+  transition: all .3s ease-in-out;
+
+}
+.download-resume-btn:hover{
+  transition: all .5s ease-in-out;
+  background-color: #4dba87;
+  color: #2D2E32;
+
+}
 
 
 
-/* 
 
 
 
@@ -147,5 +178,6 @@ body {
 .main-image img{
   width:100%;
   height: 100%;
+  opacity:.9;
   
 }

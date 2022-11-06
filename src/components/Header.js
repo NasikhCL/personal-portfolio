@@ -1,5 +1,6 @@
-import React, {useState, useEffect } from "react";
-// import portfolioHeaderImage from '../images/Untitled (1).png';
+import React, {useState, useEffect, Fragment } from "react";
+import portfolioHeaderImage from '../images/Developer activity-bro.png';
+
 
 export default function Header (){
     const[isSocialIcons, setIsSocialIcons] = useState(false)
@@ -13,15 +14,20 @@ export default function Header (){
                 <div className="header-btn"><h5>Front-End Developer</h5></div>
                 <h2 className="header-salute">Hi There,</h2>
                 <h1 className="header-name">I'm Nasikh CL</h1>
-                {isSocialIcons && <div className="social-icons">
-                    <a href="https://www.linkedin.com/in/nasikh-cl/"><img src="https://img.icons8.com/fluency/48/null/linkedin-2.png" alt="linkedin"/></a>
-                    <a href="https://www.linkedin.com/nasikh_cl"><img src="https://img.icons8.com/glyph-neue/48/null/github.png"Alt="github"/></a>
-                    <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
-                    <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
-                </div>}
+                {isSocialIcons && <Fragment>
+                                    <div className="social-icons">
+                                        <a href="https://www.linkedin.com/in/nasikh-cl/"><img src="https://img.icons8.com/fluency/48/null/linkedin-2.png" alt="linkedin"/></a>
+                                        <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/glyph-neue/48/null/github.png"Alt="github"/></a>
+                                        <a href="https://twitter.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
+                                        <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
+                                    </div>
+                                    <a href="https://drive.google.com/file/d/1RnlH2Nfp_uh4b8tMmsA5aRPeZAhgq3B7/view?usp=drivesdk">
+                                        <button className="download-resume-btn">Resume</button>
+                                    </a>
+                                  </Fragment>}
             </div>
             <div className="main-image">
-                {/* <img  src="https://developer-portfolio-gules.vercel.app/_next/image?url=%2Fimages%2Fblaiti.png&w=640&q=75" alt="portfoliophoto" /> */}
+                <img  src={portfolioHeaderImage} alt="portfoliophoto" />
             </div>
            
         
