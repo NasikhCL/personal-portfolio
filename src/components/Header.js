@@ -11,13 +11,13 @@ export default function Header (){
         <div className="header-container">
             <div className="header-left">
                 <div className="header-btn"><h5>Front-End Developer</h5></div>
-                <h2 className="header-name">Hi There,</h2>
+                <h2 className="header-salute">Hi There,</h2>
                 <h1 className="header-name">I'm Nasikh CL</h1>
                 {isSocialIcons && <div className="social-icons">
-                    <a href="https://www.linkedin.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/linkedin-2.png" alt="linkedin"/></a>
+                    <a href="https://www.linkedin.com/in/nasikh-cl/"><img src="https://img.icons8.com/fluency/48/null/linkedin-2.png" alt="linkedin"/></a>
                     <a href="https://www.linkedin.com/nasikh_cl"><img src="https://img.icons8.com/glyph-neue/48/null/github.png"Alt="github"/></a>
-                    <a href="https://www.linkedin.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
-                    <a href="https://www.linkedin.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
+                    <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
+                    <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
                 </div>}
             </div>
             <div className="main-image">
