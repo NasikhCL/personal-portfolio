@@ -108,6 +108,20 @@ body {
   animation: type 4s steps(100,end) forwards;
 }
 
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%, 99%{
+    border-right: 2px solid#4dba87;
+  }
+  100%{
+    border-right: none;
+    
+  }
+ 
+ 
+}
 
 /* NOTE: I only tested this on Google Chrome.*/
 
@@ -123,20 +137,6 @@ body {
  
 
 
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  1%, 99%{
-    border-right: 2px solid#4dba87;
-  }
-  100%{
-    border-right: none;
-    
-  }
- 
- 
-}
 
 .social-icons{
   margin-top: 20px;
@@ -282,6 +282,12 @@ body {
     display: none;
 
   }
+  .about{
+    width:100%;
+  }
   
 
+}
+.under-construction{
+  color:red
 }
