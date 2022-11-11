@@ -74,7 +74,7 @@ body {
   margin: 0;
   width: fit-content;
   /* padding-right:20px; */
-  height:90vh;
+  /* height:90vh; */
   margin-left: 10vw;
   padding-top: 20vh;
   display: inline-block;
@@ -205,11 +205,12 @@ body {
 .section:nth-child(2n){
   width: 100%;
   text-align: right;
-  height: 500px;
+  float: right;
+  /* height: 500px; */
   /* background-color: #2D2E32; */
   background-color: #2D2E32;
   color: #4dba87;
-  padding-right: 25vw;
+  padding-right: 10vw;
   padding-top: 20px ;
   padding-bottom: 20px ;
 }
@@ -285,9 +286,21 @@ body {
   .about{
     width:100%;
   }
-  
+  .skills-img-container{
+    width: 100%;
+  }
 
 }
+
+.skills-img-container{
+  margin-top: 30px;
+  width: 70%;
+  height: auto;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+
 .under-construction{
   color:red
 }
