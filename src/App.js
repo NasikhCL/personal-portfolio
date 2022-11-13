@@ -4,6 +4,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects'; 
+import Services from './components/Services';
 import Footer from './components/Footer';
 
 
@@ -18,7 +19,9 @@ export default function App (){
        <About />
        <Skills />
        <Projects />
+       <Services />
        <Footer />
+      
     </div>
   )
 }
