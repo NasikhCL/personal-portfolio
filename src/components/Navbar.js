@@ -17,10 +17,11 @@ export default function Navbar(){
                 <h2>Nasikh CL</h2>
             </div>
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                {/* <li>About</li> */}
                 <li>Skills</li>
-                <li>Portfolio</li>
+                {/* <li>Portfolio</li> */}
             </ul>
             
             <div className="hamberger" onClick={toggle}><img src="https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/45/000000/external-hamburger-ui-essential-febrian-hidayat-gradient-febrian-hidayat.png"/></div>

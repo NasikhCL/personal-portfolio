@@ -13,7 +13,10 @@ body {
   h1, h2, h3, h4, h5, h6, p {
     margin: 0;
   }
-
+a{
+  text-decoration: none;
+  color:white
+}
   /* navbar component */
  
   .navbar-container{
@@ -207,7 +210,7 @@ body {
   text-align: right;
   float: right;
   height: auto;
-  /* background-color: #2D2E32; */
+  background-color: #2D2E32;
   background-color: #2D2E32;
   color: #4dba87;
   padding-right: 15vw;
@@ -224,7 +227,26 @@ body {
 
 
 /* media query, responsive design */
+@media screen and (max-width: 975px) {
+  .main-image{
+    display: none;
 
+  }
+  .header-left{
+    /* margin: 0 auto; */
+    /* width: fit-content; */
+    /* padding-right:10px; */
+    height:90vh;
+    /* margin-left: 10%; */
+    padding-top: 7vh;
+    display: inline-block;
+    /* margin-right: auto; */
+    /* border:1px solid yellow; */
+  
+  }
+
+  
+}
 
 @media screen and (max-width:760px) {
   .navbar-container ul{
@@ -255,6 +277,21 @@ body {
     animation: fadeIn .7s;
     /* transition: all .3s ease-in-out; */
 
+  }
+
+  .section:nth-child(2n){
+    
+    text-align: left;
+    float: right;
+    padding-right: 0;
+    width: 100%;
+    height: auto;
+    background-color: #2D2E32;
+    background-color: #2D2E32;
+    color: #4dba87;
+    padding-left: 10vw;
+    padding-top: 20px ;
+    padding-bottom: 20px ;
   }
   .header-name{
     margin: 0%;
@@ -287,12 +324,13 @@ body {
     width:100%;
     height: auto;
     padding-bottom: 20px;
+    padding-right:5%;
   }
   .skills{
     width: 100%;
     height: auto;
     padding-bottom: 20px;
-    outline: auto;
+  
   }
   .skills-img-container{
     width: 100%;
