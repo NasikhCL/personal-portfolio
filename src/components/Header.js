@@ -1,6 +1,6 @@
 import React, {useState, useEffect, Fragment } from "react";
 import portfolioHeaderImage from '../images/Developer activity-bro.png';
-
+import resumePdf from '../assets/resume.pdf'
 
 export default function Header (){
     const[isSocialIcons, setIsSocialIcons] = useState(false)
@@ -21,7 +21,7 @@ export default function Header (){
                                         <a href="https://twitter.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
                                         <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
                                     </div>
-                                    <a href="https://drive.google.com/file/d/1RnlH2Nfp_uh4b8tMmsA5aRPeZAhgq3B7/view?usp=drivesdk">
+                                    <a href={resumePdf} download>
                                         <button className="download-resume-btn">Resume</button>
                                     </a>
                                   </Fragment>}
