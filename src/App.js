@@ -13,7 +13,7 @@ export default function App (){
 
 
   return(
-    <div>
+    <div className='main-app'>
        <Navbar ref={navRef} />
        <Header />
        <About />
