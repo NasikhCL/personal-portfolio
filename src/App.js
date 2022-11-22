@@ -18,7 +18,7 @@ export default function App (){
        <Header />
        <About />
        <Skills />
-       {/* <Projects /> */}
+       <Projects />
        {/* <Services /> */}
        <Footer />
       
