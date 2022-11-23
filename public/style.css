@@ -325,6 +325,7 @@ a{
   transition: all .5s ease-in-out;
  width: 100%;
  height: 100%;
+
  /* display: none; */
  position: absolute;
  top:0;
@@ -334,6 +335,7 @@ a{
  /* background-color: #25262A; */
 }
 .project-live-github a {
+ 
   color: transparent;
 }
 .project-card-img:hover .project-live-github{
@@ -344,14 +346,21 @@ a{
   /* transition: all .7 ease-in-out; */
 }
 .project-card-img:hover .project-live-github a {
+  
   color: #4dba87;
   transition: all .7s ease-in-out;
 }
 .project-live-github a:hover {
   color: white;
 }
+.project-card-img:hover .project-live-github p {
+  background-color: white;
+  color: #4dba87;
+  transition: all .7s ease-in-out;
+}
 
 .project-live-github p{
+  
   margin-bottom: 50px;
   font-size: 18px;
   font-weight: bold;
