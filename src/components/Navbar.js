@@ -20,8 +20,8 @@ export default function Navbar(){
                 <a href="#home-section"><li>Home</li></a>
                 <a href="#about-section"><li>About</li></a>
                 <a href="#skills-section"><li>Skills</li></a>
-                {/* <li>About</li> */}
-                {/* <li>Skills</li> */}
+                <a href="#projects-section"><li>Projects</li></a>
+               
                 {/* <li>Portfolio</li> */}
             </ul>
             
@@ -32,6 +32,7 @@ export default function Navbar(){
                     <a href="#home-section"><li>Home</li></a>
                     <a href="#about-section"><li>About</li></a>
                     <a href="#skills-section"><li>Skills</li></a>
+                    <a href="#projects-section"><li>Projects</li></a>
                     {/* <li>Portfolio</li> */}
                 </ul>
             </div>}
