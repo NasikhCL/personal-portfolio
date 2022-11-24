@@ -8,7 +8,7 @@ import HabititSS from '../images/WhatsApp Image 2022-11-22 at 11.32.33 PM.jpeg'
 
 export default function Projects(){
     return(
-        <div className="section">
+        <div id="projects-section" className="section">
             <h1>Projects</h1>
             <div className="projects">
 
