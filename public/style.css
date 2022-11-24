@@ -310,13 +310,13 @@ a{
 .project-card-img{
   margin:0 auto;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   width:350px;
   height: 200px;
   background-color: #4dba87;
   border-radius: 7px;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   /* transition: all .4s ease-in-out; */
   /* outline: auto; */
 }
