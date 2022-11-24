@@ -514,6 +514,9 @@ margin-top: 10px;
     /* transition: all .3s ease-in-out; */
 
   }
+  .hamberger-items-contaner img{
+    width: 25px;
+  }
   .hamberger-items-contaner ul li{
     /* border: 2px solid orange; */
     margin-bottom: 10px;
