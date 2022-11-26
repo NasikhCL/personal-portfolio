@@ -2,7 +2,7 @@ import React, {useState, useEffect, Fragment } from "react";
 import Typewriter from 'typewriter-effect';
 
 import portfolioHeaderImage from '../images/Developer activity-bro.png';
-import resumePdf from '../assets/resume.pdf'
+import resumePdf from '../assets/NasikhCL Web Dev Resume.pdf'
 
 export default function Header (){
     const[isSocialIcons, setIsSocialIcons] = useState(false)
