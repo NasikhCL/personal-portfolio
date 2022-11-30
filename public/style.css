@@ -514,7 +514,7 @@ margin-top: 10px;
   /* border:2px solid orange */
   /* flex-wrap: wrap; */
 }
-.contact-form-container form input, button{
+.contact-form-container form input,.contact-form-container form button{
   color:white;
   padding-left: 15px;
   background-color: transparent;
@@ -727,7 +727,7 @@ margin-top: 10px;
   
 } */
 
-.contact-form-container form input  , button{
+.contact-form-container form input  ,.contact-form-container form button{
  
  width: 90%;
 }
