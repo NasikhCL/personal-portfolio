@@ -514,6 +514,7 @@ margin-top: 10px;
 }
 .contact-form-container form button:hover{
   background-color: #4dba87;
+  color: #2D2E32;
   transition: all.3S ease-in-out;
   
 }
@@ -693,6 +694,7 @@ margin-top: 10px;
 .contact-form-container form textarea{
   width: 90%;;
 }
+
 
 
 }
