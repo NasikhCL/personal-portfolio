@@ -73,7 +73,7 @@ a{
     margin: 20px;
     /* margin-top: 2vh; */
     /* margin-left: auto; */
-    width: 400px;
+    /* width: 400px; */
     height: 30px;
     list-style: none;
     /* display: inline-block; */
@@ -448,8 +448,48 @@ margin-top: 10px;
   background-color: #25262A;
 }
 
+/* blog */
 
+.blog{
+  width: 90%;
+}
+.blog-card{
+  
+  width:285px;
+  height: 290px;
+  box-shadow: #4dba87 0px 5px 13px;
+  border-radius: 7px;
+  margin: 30px auto;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  /* background: url('https://nasikhcl.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2FqaedPly-Uro%2Fupload%2Fv1667807546929%2FX4KNuh8_S.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75'); */
+  /* background-size: cover; */
+}
+.blog-card:hover{
+  transition: all .4s ease-in-out;
+  transform: scale(1.05);
+}
+.blog-image{
+  width: 270px;
+  height: 150px;
 
+}
+.blog-link{
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+  border-radius:7px;
+  bottom: 5px;
+}
+.blog-link:hover{
+  background-color: #4dba87;
+  transition: all .4s ease-in-out;
+}
 /* contact form */
 
 
@@ -457,7 +497,7 @@ margin-top: 10px;
   
   color:#4dba87;
   width: 100%;
-  background-color: #2D2E32;
+  background-color: #25262A;
   padding: 50px 0px;
 }
 .contact-form-container h1{
