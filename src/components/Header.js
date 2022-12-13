@@ -37,9 +37,9 @@ export default function Header (){
                                         <a href="https://twitter.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
                                         <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
                                     </div>
-                                    <a href={resumePdf} download>
+                                    <a href="https://www.notion.so/Nasikh-CL-s-Resume-480a645688934ac6b1e8623a169a826b">
                                     
-                                        <button className="download-resume-btn"><span class="material-symbols-sharp">download</span> Resume</button>
+                                        <button className="download-resume-btn"><i class="fa-solid fa-eye"></i> Resume</button>
                                     </a>
                                   </Fragment>}
             </div>
