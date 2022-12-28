@@ -269,14 +269,25 @@ a{
 
 
 
-
 .skills-img-container{
+  margin: auto;
   margin-top: 30px;
-  width: 70%;
+  width: 80%;
   height: auto;
   display:flex;
   flex-wrap:wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+.skill-box{
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 20px 30px;
+  text-align: center;
+  box-shadow: #4dba87 0px 2px 6px;
+  border: 2px solid #4dba87;
 }
 
 .projects{
@@ -454,7 +465,7 @@ margin-top: 10px;
   width: 90%;
 }
 .blog-card{
-  
+  color: #FFFFFF;
   width:285px;
   height: 290px;
   box-shadow: #4dba87 0px 5px 13px;
@@ -692,7 +703,7 @@ margin-top: 10px;
   }
 
   .skills-img-container{
-    width: 100%;
+    width: 95%;
     padding-bottom:20px ;
     
   }
