@@ -597,7 +597,10 @@ margin-top: 10px;
   .projects{
     justify-content: center;
   }
-
+  .footer-content-box{
+    display: block;
+    text-align: center;
+  }
   
 }
 
