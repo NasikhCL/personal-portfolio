@@ -16,9 +16,7 @@ export default function Navbar(){
             <div className="logo">
                 <h2>Nasikh CL</h2>
             </div>
-            <a href="https://www.notion.so/Nasikh-CL-s-Resume-480a645688934ac6b1e8623a169a826b">
-                <button className="nav-resume-btn"><i class="fa-solid fa-eye"></i> Resume</button>
-            </a>
+          
             <ul>
                 <a href="#home-section"><li>Home</li></a>
                 <a href="#about-section"><li>About</li></a>
