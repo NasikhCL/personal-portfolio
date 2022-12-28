@@ -2,12 +2,12 @@ import React, {useState, useEffect, Fragment } from "react";
 import Typewriter from 'typewriter-effect';
 
 import portfolioHeaderImage from '../images/Developer activity-bro.png';
-import resumePdf from '../assets/NasikhCL Web Dev Resume.pdf'
+// import resumePdf from '../assets/NasikhCL Web Dev Resume.pdf'
 
 export default function Header (){
     const[isSocialIcons, setIsSocialIcons] = useState(false)
     useEffect(()=>{
-        setTimeout(()=> setIsSocialIcons(true) , 4000)
+        setTimeout(()=> setIsSocialIcons(true) , 1000)
     },[])
     
     return( 
@@ -18,7 +18,7 @@ export default function Header (){
                        
                         <Typewriter
                             options={{
-                                strings: ['Front-End Developer','React Developer', 'Javascript Developer'],
+                                strings: ['Front-End Developer','React Developer',"MERN Stack Developer", 'Javascript Developer', "Full Stack Developer", "Learner"],
                                 autoStart: true,
                                 loop: true,
                                 stop
