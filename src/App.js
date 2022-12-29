@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import About from './components/About';
@@ -9,12 +9,29 @@ import Footer from './components/Footer';
 import ContactForm from './components/ContactForm';
 import Blog from './components/Blogs';
 export default function App (){
- const navRef = useRef(null)
-
-
+  const mainApp = useRef(null)
+  const [showResumeBtn, setShowResumeBtn] = useState(false);
+  useEffect(() => {
+    console.log(mainApp)
+    function handleScroll() {
+      console.log(mainApp.current.scrollTop)
+      if (mainApp.current.scrollTop > 420) {
+        setShowResumeBtn(true);
+      } else {
+        setShowResumeBtn(false);
+      }
+    }
+    
+    mainApp.current.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      mainApp.current.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
   return(
-    <div className='main-app'>
-       <Navbar ref={navRef} />
+    <div ref={mainApp} className='main-app'>
+       <Navbar showResumeBtn={showResumeBtn} />
        <Header />
        <About />
        <Skills />

@@ -2,7 +2,7 @@ import React, {  useState } from "react";
 
 
 
-export default function Navbar(){
+export default function Navbar({showResumeBtn}){
   
     const [isToggled, setIsToggled] = useState(false)
 
@@ -11,15 +11,16 @@ export default function Navbar(){
 
     }
 
+
     return(
         <div className="navbar-container">
             <div className="logo">
                 <h2>Nasikh CL</h2>
             </div>
                 {/* <h2 style={{display:"inline-block"}}>Resume</h2> */}
-                <a href="https://www.notion.so/Nasikh-CL-s-Resume-480a645688934ac6b1e8623a169a826b">             
+                { showResumeBtn && <a href="https://www.notion.so/Nasikh-CL-s-Resume-480a645688934ac6b1e8623a169a826b">             
                     <button className="nav-resume-btn">View Resume</button>
-                </a>
+                </a>}
             <ul>
                 <a href="#home-section"><li>Home</li></a>
                 <a href="#about-section"><li>About</li></a>
