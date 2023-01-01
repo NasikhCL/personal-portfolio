@@ -734,12 +734,18 @@ margin-top: 10px;
   }
   
   .project-card{
-    width: 90%;
+    width: 96%;
+    padding-bottom: 40px;
     height: auto;
   
   }
   .project-card-img{
     width: 96%;
+  }
+  .project-live-github-container{
+   
+    left: 14%;
+    
   }
   
   
