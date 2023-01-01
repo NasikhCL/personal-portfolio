@@ -84,7 +84,7 @@ export default function Projects(){
                         <h3>Admin Page </h3>
                         <p>It's a Static Admin Side web app build using ReactJS. Home Page, My Jobs page and Payments Page</p>
                     </div>
-                    <div className="project-live-github" >
+                    <div className="project-live-github-container" >
                         <a href="https://new-digipplus.netlify.app/"><p>View Live</p></a>
                         <a href="https://github.com/NasikhCL/digipplus"><p>Gitub Repo</p></a>
                     </div>

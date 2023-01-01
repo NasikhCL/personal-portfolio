@@ -730,7 +730,7 @@ margin-top: 10px;
     
   }
   .projects{
-    width: 98%;
+    width: 99%;
   }
   
   .project-card{
@@ -740,11 +740,11 @@ margin-top: 10px;
   
   }
   .project-card-img{
-    width: 96%;
+    width: 97%;
   }
   .project-live-github-container{
    
-    left: 14%;
+    left: 18%;
     
   }
   
@@ -776,4 +776,40 @@ margin-top: 10px;
 
 
 
+}
+
+@media screen and (max-width:374px) {
+
+  
+  .skills-img-container{
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+  .skill-box{
+    margin: 20px 10px;
+  }
+  
+    .project-card{
+    width: 95%;
+    padding-bottom: 40px;
+    height: auto;
+  
+  }
+  .project-card-img{
+    width: 95%;
+  }
+  .project-live-github-container{
+   
+    left: 10%;
+    
+  }
+  
 }
