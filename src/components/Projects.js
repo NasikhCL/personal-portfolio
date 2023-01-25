@@ -6,12 +6,26 @@ import ContactSS from '../images/WhatsApp Image 2022-11-22 at 11.28.52 PM.jpeg';
 import DigiPiSS from '../images/WhatsApp Image 2022-11-22 at 11.30.19 PM.jpeg';
 import HabititSS from '../images/WhatsApp Image 2022-11-22 at 11.32.33 PM.jpeg'
 import AdminUI from '../images/WhatsApp Image 2022-12-29 at 11.26.44 AM.jpeg'
+import Dressed from '../images/dressed.jpeg'
 export default function Projects(){
     return(
         <div id="projects-section" className="section">
             <h1>Projects</h1>
             <div className="projects">
             <div className="project-card">
+                    <div className="project-card-img">
+                        <img src={Dressed} />
+                    </div> 
+                    <div className="project-card-details">
+                        <h3>Get Dressed</h3>
+                        <p>It's a fully responsive web application were users can view different outfits based on the occasions. this is the first freelance project which i completed. i have used firebase for the backend and reactJS for the front-end.</p>
+                    </div>
+                    <div className="project-live-github-container" >
+                            <a href="https://dressed.netlify.app/"><p>View Live</p></a>
+                            <a href="https://github.com/NasikhCL/Dressed"><p>Gitub Repo</p></a>
+                    </div>
+                </div>
+                <div className="project-card">
                     <div className="project-card-img">
                         <img src={AdminUI} />
                     </div> 
