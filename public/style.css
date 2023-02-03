@@ -378,24 +378,27 @@ a{
   border-radius: 7px;
 }
 
-.project-live-github-container{
+.{
   position: absolute;
   bottom: 10px;
   margin-top: 10px;
   text-align: center;
-  left: 17%;
+  /* left: 50%; */
+  width:100%;
+  /* transform: translateX(-50%); */
+  /* border: 2px solid blue; */
   /* transform: translateX(-50%); */
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-evenly;
   align-items: center;
 }
-.project-live-github-container a{
+. a{
   padding: 5px 7px;
   margin: 0 5px;
   border: 2px solid #4dba87;
 }
-.project-live-github-container a:hover{
+. a:hover{
   transition: all .4s ease-in-out;
   background-color: #FFFFFF;
   color:#4dba87;
@@ -746,9 +749,10 @@ margin-top: 10px;
   .project-card-img{
     width: 97%;
   }
-  .project-live-github-container{
+  .{
    
-    left: 18%;
+    /* left: 50%;
+  transform: translateX(-50%); */
     
   }
   
@@ -810,10 +814,10 @@ margin-top: 10px;
   .project-card-img{
     width: 95%;
   }
-  .project-live-github-container{
+  /* .{ */
    
-    left: 10%;
+    /* left: 10%; */
     
-  }
+  /* } */
   
 }
