@@ -5,7 +5,7 @@ export default function Footer(){
         <div className="footer-container">
             <div className="footer-content-box">
                 <h3>nasikcl@gmail.com</h3>
-                <h6>Copyright <span className="copyrights">&#169;</span> 2022 Nasikh CL</h6>
+                <h4>Copyright <span className="copyrights">&#169;</span> 2022 Nasikh CL</h4>
                 <div className="footer-social-icons">
                     <a href="https://www.linkedin.com/in/nasikh-cl/"><img src="https://img.icons8.com/fluency/18/null/linkedin-2.png" alt="linkedin"/></a>
                     <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/glyph-neue/18/null/github.png" alt="github"/></a>

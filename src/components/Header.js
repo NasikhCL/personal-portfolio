@@ -14,7 +14,7 @@ export default function Header (){
         <div id="home-section" className="header-container">
             <div className="header-left">
                 <div className="header-btn">
-                    <h3>
+                    <h2>
                        
                         <Typewriter
                             options={{
@@ -24,11 +24,11 @@ export default function Header (){
                                 stop
                             }}
                         />
-                    </h3> 
+                    </h2> 
                 </div>
-                <h1 className="header-salute">Hi There,</h1>
+                <h2 className="header-salute">Hi There,</h2>
                 
-                <h1 className="header-name">I'm Nasikh CL</h1>
+                <h2 className="header-name">I'm Nasikh CL</h2>
               
                 {isSocialIcons && <Fragment>
                                     <div className="social-icons">
