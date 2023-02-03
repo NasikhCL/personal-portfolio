@@ -15,7 +15,7 @@ export default function Navbar({showResumeBtn}){
     return(
         <div className="navbar-container">
             <div className="logo">
-                <h2>Nasikh CL</h2>
+                <h1>Nasikh CL</h1>
             </div>
                 {/* <h2 style={{display:"inline-block"}}>Resume</h2> */}
                 { showResumeBtn && <a href="https://www.notion.so/Nasikh-CL-s-Resume-480a645688934ac6b1e8623a169a826b">             
