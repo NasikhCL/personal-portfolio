@@ -10,11 +10,11 @@ import Dressed from '../images/dressed.jpeg'
 export default function Projects(){
     return(
         <div id="projects-section" className="section">
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             <div className="projects">
             <div className="project-card">
                     <div className="project-card-img">
-                        <img src={Dressed} />
+                        <img src={Dressed} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Get Dressed</h3>
@@ -27,7 +27,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={AdminUI} />
+                        <img src={AdminUI} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Admin UI</h3>
@@ -40,7 +40,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={PortfolioSS} />
+                        <img src={PortfolioSS} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Personal Portfolio</h3>
@@ -53,7 +53,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={MealSS} />
+                        <img src={MealSS} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Meal Recipies</h3>
@@ -66,7 +66,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={MovieSS} />
+                        <img src={MovieSS} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Movies House</h3>
@@ -79,7 +79,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={ContactSS} />
+                        <img src={ContactSS} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Contact Manager</h3>
@@ -92,7 +92,7 @@ export default function Projects(){
                 </div>
                 <div className="project-card">
                     <div className="project-card-img">
-                        <img src={DigiPiSS} />
+                        <img src={DigiPiSS} alt="projectImage" />
                     </div> 
                     <div className="project-card-details">
                         <h3>Admin Page </h3>

@@ -31,7 +31,7 @@ export default function ContactForm(){
       };
     return(
         <div id="contact-section" className="contact-form-container">
-            <h1>Contact Me</h1>
+            <h2>Contact Me</h2>
             <form ref={form} className="contact-form" onSubmit={sendEmail}>
                 <input className="user-name" onChange={(e)=>setName(e.target.value)} value={name} name="user_name" type="text" placeholder="Enter Your Name"/>
                 <input name="user_email" type="email" onChange={(e)=>setEmail(e.target.value)} value={email} placeholder="Email"/>

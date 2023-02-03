@@ -33,7 +33,7 @@ export default function Header (){
                 {isSocialIcons && <Fragment>
                                     <div className="social-icons">
                                         <a href="https://www.linkedin.com/in/nasikh-cl/"><img src="https://img.icons8.com/fluency/48/null/linkedin-2.png" alt="linkedin"/></a>
-                                        <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/glyph-neue/48/null/github.png"Alt="github"/></a>
+                                        <a href="https://github.com/NasikhCL"><img src="https://img.icons8.com/glyph-neue/48/null/github.png" alt="github"/></a>
                                         <a href="https://twitter.com/nasikh_cl"><img src="https://img.icons8.com/fluency/48/null/twitter.png" alt="twitter"/></a>
                                         <a href="https://www.instagram.com/nasikh_cl/"><img src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt="instagram"/></a>
                                     </div>

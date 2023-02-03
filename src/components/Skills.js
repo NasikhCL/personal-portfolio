@@ -5,7 +5,7 @@ export default function Skills(){
     return(
 
         <div  id='skills-section'  className="section skills">
-            <h1>Skills</h1>
+            <h2>Skills</h2>
             <div className="skills-img-container">
                 <div className="skill-box">
                     <h4>HTML</h4>

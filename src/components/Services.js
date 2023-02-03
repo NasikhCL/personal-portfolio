@@ -3,7 +3,7 @@ import React from 'react';
 export default function Services(){
     return (
         <div className='section'>
-            <h1>Services</h1>
+            <h2>Services</h2> 
             <div className='services'>
 
                 <div className='service-card'>
