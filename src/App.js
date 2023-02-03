@@ -14,7 +14,7 @@ export default function App (){
   useEffect(() => {
     // console.log(mainApp)
     function handleScroll() {
-      console.log(mainApp.current.scrollTop)
+      // console.log(mainApp.current.scrollTop)
       if (mainApp.current.scrollTop > 420) {
         setShowResumeBtn(true);
       } else {

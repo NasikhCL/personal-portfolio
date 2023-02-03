@@ -622,7 +622,7 @@ margin-top: 10px;
 }
 
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:794px) {
   .navbar-container > ul{
     display:none;
   }
