@@ -33,9 +33,9 @@ export default function Navbar({showResumeBtn}){
                 {/* <li>Portfolio</li> */}
             </ul>
             
-            <div className="hamberger" onClick={toggle}><img src="https://img.icons8.com/external-febrian-hidayat-gradient-febrian-hidayat/45/000000/external-hamburger-ui-essential-febrian-hidayat-gradient-febrian-hidayat.png"/></div>
+            <div className="hamberger" onClick={toggle}><i className="fa-solid fa-bars"></i></div>
             {isToggled && <div className="hamberger-items-contaner">
-            <img onClick={toggle} src="https://img.icons8.com/ios-glyphs/48/737373/delete-sign.png"/>
+                <i className="fa-solid fa-xmark" onClick={toggle}></i>
                 <ul  onClick={toggle}>
                     <a href="#home-section"><li>Home</li></a>
                     <a href="#about-section"><li>About</li></a>

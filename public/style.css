@@ -63,7 +63,7 @@ a{
     z-index: 1;
   }
  .logo{
-    margin:20px 0 0 10% ;
+    margin:15px 0 0 7% ;
     width: fit-content;
     height: 30px;
    
@@ -107,7 +107,7 @@ a{
     
    
   }
-  .navbar-container .hamberger img{
+  .navbar-container .hamberger i{
   display: none;
   }
 
@@ -626,7 +626,9 @@ margin-top: 10px;
   .navbar-container > ul{
     display:none;
   }
-  .navbar-container .hamberger img{
+  .navbar-container .hamberger i{
+    margin-top:10px;
+    font-size: 27px; 
     display: inline-block;
     }
   .navbar-container .hamberger{
@@ -645,7 +647,7 @@ margin-top: 10px;
     top:0;
     right: 0;
     width:50%;
-    height: 250px;
+    height: 300px;
     padding-top:20px ;
     background-color: #4dba87;
     animation: fadeIn .7s;
@@ -653,8 +655,10 @@ margin-top: 10px;
     /* transition: all .3s ease-in-out; */
 
   }
-  .hamberger-items-contaner img{
-    width: 25px;
+  .hamberger-items-contaner i{
+    margin-left: 15px;
+    color:black;
+    font-size: 25px;
   }
   .hamberger-items-contaner ul li{
     /* border: 2px solid orange; */
