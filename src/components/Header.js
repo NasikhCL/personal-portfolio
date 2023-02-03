@@ -14,7 +14,7 @@ export default function Header (){
         <div id="home-section" className="header-container">
             <div className="header-left">
                 <div className="header-btn">
-                    <h2>
+                    <h3>
                        
                         <Typewriter
                             options={{
@@ -24,7 +24,7 @@ export default function Header (){
                                 stop
                             }}
                         />
-                    </h2> 
+                    </h3> 
                 </div>
                 <h2 className="header-salute">Hi There,</h2>
                 
