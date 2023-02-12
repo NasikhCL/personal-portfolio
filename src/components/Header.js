@@ -24,7 +24,7 @@ export default function Header (){
                                 stop
                             }}
                         />
-                    </h3> 
+                    </h3>  
                 </div>
                 <h2 className="header-salute">Hi There,</h2>
                 
